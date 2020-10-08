@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>AND Gate</title>
+</head>
+<body>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-5">NOT GATE</h1><br>
+        <div class="row">
+          <div class="col-md-6 text-justify">
+            <p>Inverting NOT gates are single input devicse which have an output level that is normally at logic level “1” and goes “LOW” to a logic level “0” when its single input is at logic level “1”, in other words it “inverts” (complements) its input signal. The output from a NOT gate only returns “HIGH” again when its input is at logic level “0” giving us the Boolean expression of:  A = Q.</p>
+          </div>
+          <div class="col-md-6 text-center">
+            <img src="img/not.png">
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br>
+
+  <div class="container mx-auto text-center">
+    <div class = row>
+      <div class="col-md-6">
+        <div class="row text-center">
+          <div class="col-6 text-center mx-auto">
+            <h6>A</h6>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <button onclick = "switch1();" class="switch btn btn-light" id = "1"><img src="img/off.png" class="onoff" id = "img1"></button>
+          </div>
+        </div>
+    
+        <br><br>
+        <button onclick="not();" id = "and" class="btn btn-info"><i class="fa fa-check-circle-o" aria-hidden="true"></i> Check</button>
+      </div>
+    <div class="col-md-6">
+      <div class="container">
+          <table class="table" id= "result">
+            <thead>
+              <tr>
+                <th scope="col">A</th>
+                <th scope="col">A`</th>
+                <!-- <th scope="col" id="op">A AND B</th> -->
+              </tr>
+            </thead>
+            <tbody>
+          
+            </tbody>
+          </table>
+
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<br><br>
+<div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-md-6 text-center">
+            <h3>2 I/P Transistor NOT Gate</h3><br>
+            <img src="img/notim.png">
+          </div>
+          <div class="col-md-6 text-center">
+            <h3>PIN Discription IC-7404</h3><br>
+            <img src="img/notic.png">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <script src="https://use.fontawesome.com/1df72a3486.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>

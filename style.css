@@ -1,0 +1,28 @@
+.onoff{
+  width: 100px;
+  height: 100px;
+  margin: 0px;'
+  padding: 0px;
+
+}
+.switch{
+  margin: 10px;
+}
+.run{
+  width: 60px;
+  height: 60px;
+}
+
+.col-md-6{
+  /*margin: 10px;*/
+  padding: 10px;
+}
+
+.body{
+  margin: 0px;
+  padding: 0px;
+}
+
+button a{
+  color: white;
+}
